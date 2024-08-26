@@ -16,18 +16,10 @@
     "noImplicitOverride": true,
 
     /* If transpiling with Tyepscript */
-    "module": "NodeNext",
-    "outDir": "dist",
-    "rootDir": "src",
-    "sourceMap": true,
-
-    /* If building for a library */
-    "declaration": true,
-
-    /* If building for a library in a monorepo */
-    "declarationMap": true,
+    "module": "Preserve",
 
     /* If code doesn't require access to DOM APIs */
-    "lib": ["ES2023"]
+    "lib": ["ES2023"],
+    "noEmit": true
   }
 }
