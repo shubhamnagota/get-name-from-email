@@ -1,6 +1,9 @@
 export const getNameFromEmail = (email: string): string => {
   let name: string = email;
 
+  /* Make all lowercase */
+  name = name.toLowerCase();
+
   /* Remove domain */
   name = name.split('@')[0] ?? '';
 
