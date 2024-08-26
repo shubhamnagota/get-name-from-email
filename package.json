@@ -20,5 +20,8 @@
 	"files": [
 		"dist"
 	],
-	"type": "module"
+	"type": "module",
+	"devDependencies": {
+		"typescript": "^5.5.4"
+	}
 }
