@@ -1,0 +1,24 @@
+{
+	"name": "get-name-from-email",
+	"version": "1.0.0",
+	"description": "Get name from email address",
+	"keywords": [
+		"name",
+		"email",
+		"regex"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/shubhamnagota/get-name-from-email",
+	"bugs": {
+		"url": "https://github.com/shubhamnagota/get-name-from-email/issues"
+	},
+	"author": "Shubham Nagota <shubham.nagota@gmail.com> (https://shubhamnagota.vercel.app)",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shubhamnagota/get-name-from-email.git"
+	},
+	"files": [
+		"dist"
+	],
+	"type": "module"
+}
