@@ -1,33 +1,33 @@
 {
-	"compilerOptions": {
-		/* Base options */
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"target": "ES2023",
-		"allowJs": true,
-		"resolveJsonModule": true,
-		"moduleDetection": "force",
-		"isolatedModules": true,
-		"verbatimModuleSyntax": true,
+  "compilerOptions": {
+    /* Base options */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2023",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
 
-		/* Strictnes */
-		"strict": true,
-		"noUncheckedIndexedAccess": true,
-		"noImplicitOverride": true,
+    /* Strictnes */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
 
-		/* If transpiling with Tyepscript */
-		"module": "NodeNext",
-		"outDir": "dist",
-		"rootDir": "src",
-		"sourceMap": true,
+    /* If transpiling with Tyepscript */
+    "module": "NodeNext",
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
 
-		/* If building for a library */
-		"declaration": true,
+    /* If building for a library */
+    "declaration": true,
 
-		/* If building for a library in a monorepo */
-		"declarationMap": true,
+    /* If building for a library in a monorepo */
+    "declarationMap": true,
 
     /* If code doesn't require access to DOM APIs */
     "lib": ["ES2023"]
-	}
+  }
 }

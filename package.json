@@ -1,31 +1,33 @@
 {
-	"name": "get-name-from-email",
-	"version": "1.0.0",
-	"description": "Get name from email address",
-	"keywords": [
-		"name",
-		"email",
-		"regex"
-	],
-	"license": "MIT",
-	"homepage": "https://github.com/shubhamnagota/get-name-from-email",
-	"bugs": {
-		"url": "https://github.com/shubhamnagota/get-name-from-email/issues"
-	},
-	"author": "Shubham Nagota <shubham.nagota@gmail.com> (https://shubhamnagota.vercel.app)",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/shubhamnagota/get-name-from-email.git"
-	},
-	"scripts": {
-		"build": "tsc",
-		"ci": "npm run build"
-	},
-	"files": [
-		"dist"
-	],
-	"type": "module",
-	"devDependencies": {
-		"typescript": "^5.5.4"
-	}
+  "name": "get-name-from-email",
+  "version": "1.0.0",
+  "description": "Get name from email address",
+  "keywords": [
+    "name",
+    "email",
+    "regex"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/shubhamnagota/get-name-from-email",
+  "bugs": {
+    "url": "https://github.com/shubhamnagota/get-name-from-email/issues"
+  },
+  "author": "Shubham Nagota <shubham.nagota@gmail.com> (https://shubhamnagota.vercel.app)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamnagota/get-name-from-email.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
 }

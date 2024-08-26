@@ -1,1 +1,1 @@
-export { getNameFromEmail } from "./extract.js";
+export { getNameFromEmail } from './extract.js';
