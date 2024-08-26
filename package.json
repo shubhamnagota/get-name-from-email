@@ -17,6 +17,10 @@
 		"type": "git",
 		"url": "git+https://github.com/shubhamnagota/get-name-from-email.git"
 	},
+	"scripts": {
+		"build": "tsc",
+		"ci": "npm run build"
+	},
 	"files": [
 		"dist"
 	],
